@@ -32,7 +32,8 @@ body {
   scroll-behavior: smooth;
 }
 
-p {
+p,
+h2 {
   margin: 0;
 }
 
