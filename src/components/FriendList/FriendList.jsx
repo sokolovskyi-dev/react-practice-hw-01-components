@@ -7,7 +7,7 @@ export const FriendList = ({ friends }) => {
     <FriendListWrapper>
       {friends.map(({ avatar, name, isOnline, id }) => (
         <Friend key={id}>
-          <Status statusType={isOnline}></Status>
+          <Status $isOnline={isOnline}></Status>
           <img src={avatar} alt={name} width="48" />
           <Name>{name}</Name>
         </Friend>

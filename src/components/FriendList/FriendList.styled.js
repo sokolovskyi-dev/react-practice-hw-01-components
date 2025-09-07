@@ -31,7 +31,7 @@ export const Status = styled.span`
   height: 20px;
   border: 1px solid black;
   border-radius: 50%;
-  background-color: ${props => (props.statusType ? 'green' : 'red')};
+  background-color: ${props => (props.$isOnline ? 'green' : 'red')};
 `;
 export const Name = styled.p`
   font-size: 26px;
